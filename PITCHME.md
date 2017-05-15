@@ -36,14 +36,14 @@
 - Data and instructions need to get into the system and results out
 	- Input/output
 - Temporary storage of code and results is needed
-- Main memory
+	- Main memory
 
 #HSLIDE
 
 ###Computer Components: Top Level View
 
 <!--![](images/10000201000003A400000618DE1DA1BD.png  =600x) -->
-<img src="images/01.png" height="400"/>
+<img src="images/01.png" height="500"/>
 
 #HSLIDE
 
@@ -53,7 +53,7 @@
 	- Fetch
 	- Execute
 
-<img src="images/02.png" height="300"/>
+<img src="images/02.png" height="250"/>
 
 #HSLIDE
 
@@ -68,7 +68,7 @@
 
 #HSLIDE
 
-### Execute Cycle
+#### Execute Cycle
 
 - Processor-memory
 	- Data transfer between CPU and main memory
@@ -85,7 +85,7 @@
 
 ### Example of Program Execution
 
-<img src="images/03.png" height="400"/>
+<img src="images/03.png" height="500"/>
 
 #HSLIDE
 
@@ -95,7 +95,7 @@
 
 #HSLIDE
 
-### Interrupts
+#### Interrupts
 
 - Mechanism by which other modules (e.g. I/O) may interrupt normal sequence of processing
 - Program
@@ -112,11 +112,11 @@
 
 ### Program Flow Control
 
-<img src="images/05.png" height="400"/>
+<img src="images/05.png" height="500"/>
 
 #HSLIDE
 
-### Interrupt Cycle
+#### Interrupt Cycle
 
 - Added to instruction cycle
 - Processor checks for interrupt
@@ -133,23 +133,23 @@
 
 ### Transfer of Control via Interrupts
 
-<img src="images/06.png" height="400"/>
+<img src="images/06.png" height="500"/>
 
 #HSLIDE
 
 ### Instruction Cycle with Interrupts
 
-<img src="images/07.png" height="400"/>
+<img src="images/07.png" height="500"/>
 
 #HSLIDE
 
-### Instruction Cycle (with Interrupts) -  State Diagram
+#### Instruction Cycle (with Interrupts) -  State Diagram
 
 <img src="images/08.png" height="400"/>
 	
 #HSLIDE
 
-### Multiple Interrupts
+#### Multiple Interrupts
 
 - Disable interrupts
 	- Processor will ignore further interrupts whilst processing one interrupt
@@ -163,19 +163,19 @@
 
 ### Multiple Interrupts - Sequential
 
-<img src="images/09.png" height="400"/>
+<img src="images/09.png" height="500"/>
 
 #HSLIDE
 
 ### Multiple Interrupts – Nested
 
-<img src="images/10.png" height="400"/>
+<img src="images/10.png" height="500"/>
 
 #HSLIDE
 
 ### Time Sequence of Multiple Interrupts
 
-<img src="images/11.png" height="500"/>
+<img src="images/11.png" height="400"/>
 
 #HSLIDE
 
@@ -281,7 +281,7 @@
 
 ### Bus Interconnection Scheme
 
-<img src="images/12.png" height="500"/>
+<img src="images/12.png" height="300"/>
 	
 #HSLIDE
 
@@ -298,9 +298,9 @@
 
 ### Physical Realization of Bus Architecture
 
-<img src="images/13.png" height="500"/>
+<img src="images/13.png" height="400"/>
 
- #HSLIDE
+#HSLIDE
 
 ### Single Bus Problems
 
@@ -314,13 +314,13 @@
 
 ### Traditional (ISA) - with cache
 
-<img src="images/14.png" height="500"/>
+<img src="images/14.png" height="400"/>
 
 #HSLIDE
 
 ### High Performance Bus
 
-<img src="images/15.png" height="500"/>
+<img src="images/15.png" height="400"/>
 
 #HSLIDE
 
