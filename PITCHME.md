@@ -84,7 +84,7 @@
 
 ### Example of Program Execution
 
-<img src="images/03.png" height="400"/>
+<img src="images/03.png" height="450"/>
 
 #HSLIDE
 
